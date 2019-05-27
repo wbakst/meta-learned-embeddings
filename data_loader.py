@@ -34,7 +34,6 @@ class ReviewDataset(Dataset):
                     x[i] = int(line[i])
                 # x = [int(wid) for wid in line[:-1]]
                 y = int((int(line[-1])+1)/2)
-
                 if y == 0:
                     neg_examples.append((x, y, length))
                 else:
@@ -52,13 +51,27 @@ class ReviewDataset(Dataset):
         pos = pos_examples[pos_indices]
         neg = neg_examples[neg_indices]
 
-        both = np.concatenate([pos, neg])
+        # interleave randomly
+        ex = np.empty((self.K*2, 3), dtype=pos.dtype)
+        if np.random.uniform() > .5:
+            ex[0::2,:] = pos
+            ex[1::2,:] = neg
+        else:
+            ex[0::2,:] = neg
+            ex[1::2,:] = pos
 
-        data = torch.tensor(np.stack(both[:,0]))
-        labels = torch.tensor(np.stack(both[:,1]))
-        lens = torch.tensor(np.stack(both[:,2]))
+        train_ex = ex[:self.K]
+        test_ex = ex[self.K:]
 
-        return data, labels, lens
+        train_data = torch.tensor(np.stack(train_ex[:,0]))
+        train_labels = torch.tensor(np.stack(train_ex[:,1]))
+        train_lens = torch.tensor(np.stack(train_ex[:,2]))
+
+        test_data = torch.tensor(np.stack(train_ex[:,0]))
+        test_labels = torch.tensor(np.stack(train_ex[:,1]))
+        test_lens = torch.tensor(np.stack(train_ex[:,2]))
+
+        return train_data, train_labels, train_lens, test_data, test_labels, test_lens
 
     def __len__(self):
         return len(self.tasks)

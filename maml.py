@@ -18,7 +18,7 @@ class MetaLearner(nn.Module):
         self.meta_lr = args.meta_lr
         self.update_lr = args.update_lr
         self.num_updates = args.num_updates
-        self.test_size = args.K * args.num_classes
+        self.test_size = args.K
         self.use_gpu = args.use_gpu
 
         if self.use_gpu:
@@ -31,7 +31,7 @@ class MetaLearner(nn.Module):
     def forward(self, x_train, y_train, lens_train, x_test, y_test, lens_test):
         # x_train: [num tasks, train size, MAX LENGTH]
         # x_test: [num_tasks, test size, MAX LENGTH]
-        # train size = test size = K * num_classes
+        # train size = test size = K
 
         losses = [0 for _ in range(self.num_updates + 1)]
         corrects = [0 for _ in range(self.num_updates + 1)]

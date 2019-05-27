@@ -33,25 +33,15 @@ dataset = ReviewDataset(args)
 batch_size = args.batch_size
 
 # load twice the batch size then split into train/test
-data_loader = DataLoader(dataset, batch_size=batch_size*2, shuffle=True)
+data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, drop_last=True)
 
 for epoch in range(args.num_epochs):
 
     for batch_idx, batch in enumerate(data_loader):
-        x, y, lens = batch
 
-        # x has shape [batch_size, K*num_classes, max length]
-        if x.size(0) != 2*batch_size:
-            continue # batch not full, skip for now
-
-        # split into train and test
-        x_train = x[:batch_size]
-        x_test = x[batch_size:]
-        y_train = y[:batch_size]
-        y_test = y[batch_size:]
-        lens_train = lens[:batch_size]
-        lens_test = lens[batch_size:]
+        # sample without replacement from same task for train and test (K of each)
+        train_x, train_y, train_lens, test_x, test_y, test_lens = batch
 
         # train the metalearner
-        losses, accs = meta_learner.forward(x_train, y_train, lens_train, x_test, y_test, lens_test)
+        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens)
         print(losses, accs)

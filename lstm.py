@@ -13,7 +13,7 @@ class BiLSTM(nn.Module):
         self.hidden_size = args.hidden_size
         self.vocab_size = args.vocab_size #args.vocab_size
         self.label_size = args.num_classes
-        self.batch_size = args.K * args.num_classes # batch size is per task here
+        self.batch_size = args.K # batch size is per task here
         self.use_gpu = args.use_gpu
 
         self.embeddings = nn.Embedding(self.vocab_size, self.embedding_size)
@@ -36,7 +36,7 @@ class BiLSTM(nn.Module):
         # sort by length
         lengths, perm_idx = lengths.sort(0, descending=True)
         word_ids = word_ids[perm_idx]
-        
+
         # print('word ids', word_ids.size())
         # word_ids = word_ids.permute(1, 0)
         embs = self.embeddings(word_ids)#.view(word_ids.size(1), self.batch_size, -1) # maybe permute instead
