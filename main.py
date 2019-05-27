@@ -29,19 +29,35 @@ args = parser.parse_args()
 
 model = BiLSTM(args)
 meta_learner = MetaLearner(model, args)
-dataset = ReviewDataset(args)
-batch_size = args.batch_size
 
-# load twice the batch size then split into train/test
-data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, drop_last=True)
+train_dataset = ReviewDataset('train', args)
+dev_dataset = ReviewDataset('dev', args)
+# test_dataset = ReviewDataset('test', args)
+print('train tasks: ', train_dataset.num_tasks)
+print('dev tasks: ', dev_dataset.num_tasks)
+# print('train tasks:', test_dataset.num_tasks)
 
-for epoch in range(args.num_epochs):
+train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, drop_last=True)
+dev_loader = DataLoader(dev_dataset, batch_size=dev_dataset.num_tasks)
 
-    for batch_idx, batch in enumerate(data_loader):
+for epoch in range(1, args.num_epochs+1):
+
+    print('EPOCH %d' % epoch)
+    print('TRAIN (batch size = %d)' % args.batch_size)
+    for batch_idx, batch in enumerate(train_loader):
 
         # sample without replacement from same task for train and test (K of each)
         train_x, train_y, train_lens, test_x, test_y, test_lens = batch
 
         # train the metalearner
-        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens)
+        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=False)
         print(losses, accs)
+
+    print('DEV (batch size = %d)' % dev_dataset.num_tasks)
+    for batch_idx, batch in enumerate(dev_loader):
+
+        train_x, train_y, train_lens, test_x, test_y, test_lens = batch
+
+        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=True)
+        print(losses, accs)
+

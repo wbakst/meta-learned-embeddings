@@ -26,9 +26,7 @@ class MetaLearner(nn.Module):
 
         self.meta_optim = optim.Adam(self.model.parameters(), lr=self.meta_lr)
 
-        self.num_tasks = args.batch_size
-
-    def forward(self, x_train, y_train, lens_train, x_test, y_test, lens_test):
+    def forward(self, x_train, y_train, lens_train, x_test, y_test, lens_test, evaluate):
         # x_train: [num tasks, train size, MAX LENGTH]
         # x_test: [num_tasks, test size, MAX LENGTH]
         # train size = test size = K
@@ -36,7 +34,7 @@ class MetaLearner(nn.Module):
         losses = [0 for _ in range(self.num_updates + 1)]
         corrects = [0 for _ in range(self.num_updates + 1)]
 
-        for i in range(self.num_tasks):
+        for i in range(len(x_train)):
             logits = self.model(x_train[i], lens_train[i])
             loss = F.cross_entropy(logits, y_train[i])
             grad = torch.autograd.grad(loss, self.model.parameters())
@@ -89,7 +87,7 @@ class MetaLearner(nn.Module):
                     correct = torch.eq(pred, y_test[i]).sum().item()
                     corrects[k+1] += correct
 
-        loss = losses[-1] / self.num_tasks
+        loss = losses[-1] / len(x_test)
         loss = Variable(loss, requires_grad=True)
 
         # restore original model weights
@@ -97,11 +95,12 @@ class MetaLearner(nn.Module):
             param.data = updated_param
 
         # meta learning step
-        self.meta_optim.zero_grad()
-        loss.backward()
-        self.meta_optim.step()
+        if not evaluate:
+            self.meta_optim.zero_grad()
+            loss.backward()
+            self.meta_optim.step()
 
-        losses = np.array(losses) / (self.test_size * self.num_tasks)
-        accs = np.array(corrects) / (self.test_size * self.num_tasks)
+        losses = np.array(losses) / (len(x_test[0]) * len(x_test))
+        accs = np.array(corrects) / (len(x_test[0]) * len(x_test))
 
         return losses, accs

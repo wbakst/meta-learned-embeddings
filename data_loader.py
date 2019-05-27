@@ -4,7 +4,7 @@ import os
 import torch
 
 class ReviewDataset(Dataset):
-    def __init__(self, args):
+    def __init__(self, split, args):
 
         self.data_dir = 'preprocessed_data'
 
@@ -16,10 +16,14 @@ class ReviewDataset(Dataset):
         for file in os.listdir(self.data_dir):
             if file == '.DS_Store':
                 continue
+            if split not in file:
+                continue
             pos_examples, neg_examples = self.read_file(file)
             if len(pos_examples) < self.K or len(neg_examples) < self.K:
                 continue # skip for now if not enough examples
             self.tasks.append((pos_examples, neg_examples))
+
+        self.num_tasks = len(self.tasks)
 
     def read_file(self, file):
         pos_examples = []
