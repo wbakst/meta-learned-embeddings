@@ -11,17 +11,47 @@ class ReviewDataset(Dataset):
         self.K = args.K
         self.num_classes = args.num_classes
         self.max_length = args.max_length
-            
-        self.tasks = []
-        for file in os.listdir(self.data_dir):
+
+        # given in Diverse Few-Shot Text Classification with Multiple Metrics paper
+        test_cats = ['books', 'dvd', 'electronics', 'kitchen_housewares']
+
+        # chosen by me
+        dev_cats = ['apparel', 'camera_photo', 'magazines', 'office_products']
+
+        # note: we're ignoring train/dev/test in the file names and separating
+        # by product category instead
+
+        self.tasks = {}
+        for file in sorted(os.listdir(self.data_dir)):
             if file == '.DS_Store':
                 continue
-            if split not in file:
+            cat, cutoff, _ = file.split('.')
+            if split == 'train' and (cat in dev_cats or cat in test_cats):
+                continue
+            if split == 'dev' and cat not in dev_cats:
+                continue
+            if split == 'test' and cat not in test_cats:
                 continue
             pos_examples, neg_examples = self.read_file(file)
+            task = cat+'.'+cutoff
+            if task not in self.tasks:
+                self.tasks[task] = ([], [])
+            self.tasks[task][0].extend(pos_examples)
+            self.tasks[task][1].extend(neg_examples)
+
+        task_list = []
+        task_names = []
+        for task in self.tasks:
+            pos_examples = self.tasks[task][0]
+            neg_examples = self.tasks[task][1]
             if len(pos_examples) < self.K or len(neg_examples) < self.K:
+                print('not enough examples', task)
                 continue # skip for now if not enough examples
-            self.tasks.append((pos_examples, neg_examples))
+            task_list.append((np.array(pos_examples), np.array(neg_examples)))
+            task_names.append(task)
+
+        self.tasks = task_list
+        self.task_names = task_names
 
         self.num_tasks = len(self.tasks)
 
@@ -42,7 +72,7 @@ class ReviewDataset(Dataset):
                     neg_examples.append((x, y, length))
                 else:
                     pos_examples.append((x, y, length))
-        return np.array(pos_examples), np.array(neg_examples)
+        return pos_examples, neg_examples
 
     def __getitem__(self, index):
         # choose the task indicated by index
