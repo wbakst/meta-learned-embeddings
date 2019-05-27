@@ -35,10 +35,11 @@ dev_dataset = ReviewDataset('dev', args)
 # test_dataset = ReviewDataset('test', args)
 print('train tasks: ', train_dataset.num_tasks)
 print('dev tasks: ', dev_dataset.num_tasks)
-# print('train tasks:', test_dataset.num_tasks)
+# print('test tasks:', test_dataset.num_tasks)
 
 train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, drop_last=True)
 dev_loader = DataLoader(dev_dataset, batch_size=dev_dataset.num_tasks)
+# test_loader = DataLoader(test_dataset, batch_size=test_dataset.num_tasks)
 
 for epoch in range(1, args.num_epochs+1):
 

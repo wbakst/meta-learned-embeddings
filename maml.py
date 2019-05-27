@@ -87,12 +87,12 @@ class MetaLearner(nn.Module):
                     correct = torch.eq(pred, y_test[i]).sum().item()
                     corrects[k+1] += correct
 
+            # restore original model weights
+            for updated_param, param in zip(stored_weights, self.model.parameters()):
+                param.data = updated_param
+
         loss = losses[-1] / len(x_test)
         loss = Variable(loss, requires_grad=True)
-
-        # restore original model weights
-        for updated_param, param in zip(stored_weights, self.model.parameters()):
-            param.data = updated_param
 
         # meta learning step
         if not evaluate:
