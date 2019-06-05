@@ -47,6 +47,13 @@ SPLITS = [
 ########################################
 ############# DATA READING #############
 ########################################
+TEST_CATEGORIES = ['books','dvd','electronics','kitchen_housewares']
+DEV_CATEGORIES = ['apparel','camera_photo','magazines','office_products']
+TRAIN_CATEGORIES = []
+
+for domain in DOMAINS:
+    if domain not in TEST_CATEGORIES and domain not in DEV_CATEGORIES:
+        TRAIN_CATEGORIES.append(domain)
 
 vocabulary = set()
 examples = collections.defaultdict(list)
@@ -66,7 +73,16 @@ for domain in DOMAINS:
     for label_type in LABEL_TYPE:
         for split in SPLITS:
             filename = './data/{}.{}.{}'.format(domain, label_type, split)
-            key = './bert_preprocessed_data/{}/{}/{}.tsv'.format(domain, label_type, split)
+
+            write_split = None
+            if domain in TEST_CATEGORIES:
+                write_split = 'test'
+            elif domain in DEV_CATEGORIES:
+                write_split = 'dev'
+            elif domain in TRAIN_CATEGORIES:
+                write_split = 'train'
+
+            key = './bert_preprocessed_data/{}/{}/{}.tsv'.format(domain, label_type, write_split)
             with open(filename, 'r') as file:
                 for line in file:
                     line = line.split()
