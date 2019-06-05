@@ -15,6 +15,8 @@ class MetaLearner(nn.Module):
 
         self.model = model
 
+        self.args = args
+
         self.meta_lr = args.meta_lr
         self.update_lr = args.update_lr
         self.num_updates = args.num_updates
@@ -26,6 +28,11 @@ class MetaLearner(nn.Module):
 
         self.meta_optim = optim.Adam(self.model.parameters(), lr=self.meta_lr)
 
+    def load_weights(self, parameters):
+        # update weights
+        for updated_param, param in zip(parameters, self.model.parameters()):
+            param.data.copy_(updated_param)
+
     def forward(self, x_train, y_train, lens_train, x_test, y_test, lens_test, evaluate):
         # x_train: [num tasks, train size, MAX LENGTH]
         # x_test: [num_tasks, test size, MAX LENGTH]
@@ -34,14 +41,18 @@ class MetaLearner(nn.Module):
         losses = [0 for _ in range(self.num_updates + 1)]
         corrects = [0 for _ in range(self.num_updates + 1)]
 
+        self.model.zero_grad()
+        stored_weights = list(p.data for p in self.model.parameters())
+
         for i in range(len(x_train)):
+
+            # run model on train data
             logits = self.model(x_train[i], lens_train[i])
             loss = F.cross_entropy(logits, y_train[i])
             grad = torch.autograd.grad(loss, self.model.parameters())
             fast_weights = list(map(lambda p: p[1] - self.update_lr * p[0], zip(grad, self.model.parameters())))
-            stored_weights = list(p for p in self.model.parameters())
 
-            # evaluate before
+            # evaluate on test data before gradient update
             with torch.no_grad():
                 # set size * 2 (binary)
                 logits = self.model(x_test[i], lens_test[i])
@@ -52,11 +63,10 @@ class MetaLearner(nn.Module):
                 correct = torch.eq(pred, y_test[i]).sum().item()
                 corrects[0] += correct
 
-                # update weights
-                for updated_param, param in zip(fast_weights, self.model.parameters()):
-                    param.data = updated_param
+            # update weights
+            self.load_weights(fast_weights)
 
-            # evaluate with update
+            # evaluate on test data after gradient update
             with torch.no_grad():
 
                 logits = self.model(x_test[i], lens_test[i])
@@ -67,36 +77,32 @@ class MetaLearner(nn.Module):
                 correct = torch.eq(pred, y_test[i]).sum().item()
                 corrects[1] += correct
 
-                for updated_param, param in zip(fast_weights, self.model.parameters()):
-                    param.data = updated_param
-            
-            for k in range(1, self.num_updates):
-                logits = self.model(x_train[i], lens_train[i])
-                loss = F.cross_entropy(logits, y_train[i])
-                grad = torch.autograd.grad(loss, self.model.parameters())
-                fast_weights = list(map(lambda p: p[1] - self.update_lr * p[0], zip(grad, self.model.parameters())))
-                for updated_param, param in zip(fast_weights, self.model.parameters()):
-                    param.data = updated_param
+            # for k in range(1, self.num_updates):
+            #     logits = self.model(x_train[i], lens_train[i])
+            #     loss = F.cross_entropy(logits, y_train[i])
+            #     grad = torch.autograd.grad(loss, self.model.parameters())
+            #     fast_weights = list(map(lambda p: p[1] - self.update_lr * p[0], zip(grad, self.model.parameters())))
+            #     for updated_param, param in zip(fast_weights, self.model.parameters()):
+            #         param.data.copy_(updated_param)
 
-                logits = self.model(x_test[i], lens_test[i])
-                loss = F.cross_entropy(logits, y_test[i])
-                losses[k+1] += loss
+            #     logits = self.model(x_test[i], lens_test[i])
+            #     loss = F.cross_entropy(logits, y_test[i])
+            #     losses[k+1] += loss
 
-                with torch.no_grad():
-                    pred = F.softmax(logits, dim=1).argmax(dim=1)
-                    correct = torch.eq(pred, y_test[i]).sum().item()
-                    corrects[k+1] += correct
+            #     pred = F.softmax(logits, dim=1).argmax(dim=1)
+            #     correct = torch.eq(pred, y_test[i]).sum().item()
+            #     corrects[k+1] += correct
 
             # restore original model weights
-            for updated_param, param in zip(stored_weights, self.model.parameters()):
-                param.data = updated_param
+            self.load_weights(stored_weights)
 
         loss = losses[-1] / len(x_test)
         loss = Variable(loss, requires_grad=True)
 
+        self.meta_optim.zero_grad()
+
         # meta learning step
         if not evaluate:
-            self.meta_optim.zero_grad()
             loss.backward()
             self.meta_optim.step()
 

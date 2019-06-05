@@ -28,6 +28,10 @@ parser.add_argument('--hidden_size', type=int, default=100)
 args = parser.parse_args()
 
 model = BiLSTM(args)
+
+# model.load_state_dict(torch.load('./weights.pt'))
+# model.eval()
+
 meta_learner = MetaLearner(model, args)
 
 train_dataset = ReviewDataset('train', args)
@@ -40,6 +44,10 @@ print('dev tasks: ', dev_dataset.num_tasks)
 train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, drop_last=True)
 dev_loader = DataLoader(dev_dataset, batch_size=dev_dataset.num_tasks)
 # test_loader = DataLoader(test_dataset, batch_size=test_dataset.num_tasks)
+
+lowest_dev_loss = float('inf')
+
+# sum_avgs = []
 
 for epoch in range(1, args.num_epochs+1):
 
@@ -59,6 +67,19 @@ for epoch in range(1, args.num_epochs+1):
 
         train_x, train_y, train_lens, test_x, test_y, test_lens = batch
 
-        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=True)
+        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=False)
+        if losses[1] < lowest_dev_loss:
+            lowest_dev_loss = losses[1]
+            torch.save(model.state_dict(), './weights.pt')
         print(losses, accs)
+        # sum_avgs.append(accs[1])
 
+    # print(np.sum(sum_avgs) / epoch)
+
+    # print('TEST (batch size = %d)' % test_dataset.num_tasks)
+    # for batch_idx, batch in enumerate(test_loader):
+
+    #     train_x, train_y, train_lens, test_x, test_y, test_lens = batch
+
+    #     losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=True)
+    #     print(losses, accs)
