@@ -8,6 +8,8 @@ class ReviewDataset(Dataset):
 
         self.data_dir = 'preprocessed_data'
 
+        self.use_gpu = args.use_gpu
+
         self.K = args.K
         self.num_classes = args.num_classes
         self.max_length = args.max_length
@@ -97,6 +99,8 @@ class ReviewDataset(Dataset):
         train_ex = ex[:self.K]
         test_ex = ex[self.K:]
 
+        device = torch.device('gpu') if self.use_gpu else torch.device('cpu')
+
         train_data = torch.tensor(np.stack(train_ex[:,0]))
         train_labels = torch.tensor(np.stack(train_ex[:,1]))
         train_lens = torch.tensor(np.stack(train_ex[:,2]))
@@ -104,6 +108,15 @@ class ReviewDataset(Dataset):
         test_data = torch.tensor(np.stack(train_ex[:,0]))
         test_labels = torch.tensor(np.stack(train_ex[:,1]))
         test_lens = torch.tensor(np.stack(train_ex[:,2]))
+
+        if self.use_gpu:
+            train_data = train_data.cuda()
+            train_labels = train_labels.cuda()
+            train_lens = train_lens.cuda()
+
+            test_data = test_data.cuda()
+            test_labels = test_labels.cuda()
+            train_lens = train_lens.cuda()
 
         return train_data, train_labels, train_lens, test_data, test_labels, test_lens
 
