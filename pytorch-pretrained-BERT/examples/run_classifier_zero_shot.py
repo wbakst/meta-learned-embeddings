@@ -981,7 +981,7 @@ def main():
                     eval_examples = processor.get_dev_examples(dev_dir)
                     eval_features = convert_examples_to_features(
                         eval_examples, label_list, args.max_seq_length, tokenizer, output_mode)
-                    eval_features = eval_features[:10]
+                    #eval_features = eval_features[:10]
                     logger.info("***** Running evaluation *****")
                     logger.info("  Num examples = %d", len(eval_examples))
                     logger.info("  Batch size = %d", args.eval_batch_size)
@@ -1087,7 +1087,7 @@ def main():
             eval_examples = processor.get_test_examples(test_dir)
             eval_features = convert_examples_to_features(
                 eval_examples, label_list, args.max_seq_length, tokenizer, output_mode)
-            eval_features = eval_features[:10]
+            #eval_features = eval_features[:10]
             logger.info("***** Running evaluation *****")
             logger.info("  Num examples = %d", len(eval_examples))
             logger.info("  Batch size = %d", args.eval_batch_size)
