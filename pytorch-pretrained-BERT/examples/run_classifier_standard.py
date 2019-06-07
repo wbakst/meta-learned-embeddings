@@ -40,6 +40,10 @@ from pytorch_pretrained_bert.modeling import BertForSequenceClassification, Bert
 from pytorch_pretrained_bert.tokenization import BertTokenizer
 from pytorch_pretrained_bert.optimization import BertAdam, WarmupLinearSchedule
 
+## TENSORBOARD LOGGING ##
+from tensorboardX import SummaryWriter
+writer = SummaryWriter()
+
 logger = logging.getLogger(__name__)
 
 
@@ -740,6 +744,12 @@ def main():
 
     tokenizer = BertTokenizer.from_pretrained(args.bert_model, do_lower_case=args.do_lower_case)
 
+    ### INIT TB LOGGING ###
+    save_dir = args.output_dir + "/save/"
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+    tbx = SummaryWriter(save_dir)
+
     ########################################
     ############ DATA VARIABLES ############
     ########################################
@@ -837,6 +847,7 @@ def main():
         model = torch.nn.DataParallel(model)
     train_dir_counter = 0
 
+    num_tensorboard_steps = 0
     for train_dir in TRAIN_DIRS:
         train_dir_counter += 1
         print("train_dir:",train_dir)
@@ -920,6 +931,7 @@ def main():
                 tr_loss = 0
                 nb_tr_examples, nb_tr_steps = 0, 0
                 for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
+                    num_tensorboard_steps += 1
                     batch = tuple(t.to(device) for t in batch)
                     input_ids, input_mask, segment_ids, label_ids = batch
 
@@ -942,6 +954,10 @@ def main():
                         optimizer.backward(loss)
                     else:
                         loss.backward()
+
+                    ## tb records loss ##
+                    loss_val = loss.item()
+                    tbx.add_scalar('train/loss', loss_val, num_tensorboard_steps)
 
                     tr_loss += loss.item()
                     nb_tr_examples += input_ids.size(0)
@@ -1028,6 +1044,11 @@ def main():
                 result['eval_loss'] = eval_loss
                 result['global_step'] = global_step
                 result['loss'] = loss
+
+                ## tb records loss ##
+                loss_val = loss
+                tbx.add_scalar(dev_dir + 'dev/loss', loss_val, num_tensorboard_steps)
+                tbx.add_scalar(dev_dir + 'dev/accuracy',result['acc'],num_tensorboard_steps)
 
                 output_eval_file = os.path.join(args.output_dir, "eval_dev_results.txt")
                 with open(output_eval_file, "a") as writer:
@@ -1128,6 +1149,11 @@ def main():
             result['eval_loss'] = eval_loss
             result['global_step'] = global_step
             result['loss'] = loss
+
+            ## tb records loss ##
+            loss_val = loss
+            tbx.add_scalar(test_dir + 'test/loss', loss_val, num_tensorboard_steps)
+            tbx.add_scalar(test_dir + 'test/accuracy',result['acc'],num_tensorboard_steps)
 
             output_eval_file = os.path.join(args.output_dir, "eval_test_results.txt")
             with open(output_eval_file, "a") as writer:
