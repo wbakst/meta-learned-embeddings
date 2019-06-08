@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--use_gpu', action='store_true')
 parser.add_argument('--num_epochs', type=int, default=10000)
-parser.add_argument('--batch_size', type=int, default=2) # num tasks per batch
+parser.add_argument('--batch_size', type=int, default=10) # num tasks per batch
 parser.add_argument('--K', type=int, default=5) # K-shot learning
 parser.add_argument('--num_classes', type=int, default=2)
 
