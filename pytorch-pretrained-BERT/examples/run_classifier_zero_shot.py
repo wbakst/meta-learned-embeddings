@@ -51,7 +51,6 @@ class InputExample(object):
 
     def __init__(self, guid, text_a, text_b=None, label=None):
         """Constructs a InputExample.
-
         Args:
             guid: Unique id for the example.
             text_a: string. The untokenized text of the first sequence. For single
@@ -588,7 +587,7 @@ def main():
                         required=False,
                         help="The name of the task to train.")
     parser.add_argument("--output_dir",
-                        default='./bert_output',
+                        default='./bert_zero_shot_output',
                         type=str,
                         required=False,
                         help="The output directory where the model predictions and checkpoints will be written.")
@@ -744,7 +743,7 @@ def main():
     tokenizer = BertTokenizer.from_pretrained(args.bert_model, do_lower_case=args.do_lower_case)
 
     ### INIT TB LOGGING ###
-    save_dir = args.output_dir + "/save/"
+    save_dir = args.output_dir + "/tb/"
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     tbx = SummaryWriter(save_dir)
@@ -1048,6 +1047,7 @@ def main():
 
                     ## tb records loss ##
                     loss_val = loss
+                    print("HERE: loss_val:",loss_val,"acc:",result['acc'])
                     tbx.add_scalar(dev_dir + 'dev/loss', loss_val, num_tensorboard_steps)
                     tbx.add_scalar(dev_dir + 'dev/accuracy',result['acc'],num_tensorboard_steps)
 

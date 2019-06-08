@@ -589,7 +589,7 @@ def main():
                         required=False,
                         help="The name of the task to train.")
     parser.add_argument("--output_dir",
-                        default='./bert_output',
+                        default='./bert_standard_output',
                         type=str,
                         required=False,
                         help="The output directory where the model predictions and checkpoints will be written.")
@@ -725,9 +725,11 @@ def main():
 
     if not args.do_train and not args.do_eval:
         raise ValueError("At least one of `do_train` or `do_eval` must be True.")
-
+    """
     if os.path.exists(args.output_dir) and os.listdir(args.output_dir) and args.do_train:
         raise ValueError("Output directory ({}) already exists and is not empty.".format(args.output_dir))
+    """
+
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
 
@@ -745,7 +747,7 @@ def main():
     tokenizer = BertTokenizer.from_pretrained(args.bert_model, do_lower_case=args.do_lower_case)
 
     ### INIT TB LOGGING ###
-    save_dir = args.output_dir + "/save/"
+    save_dir = args.output_dir + "/tb/"
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
     tbx = SummaryWriter(save_dir)
