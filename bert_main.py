@@ -83,7 +83,7 @@ for epoch in range(1, args.num_epochs+1):
         losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, tbx, num_tensorboard_steps, evaluate=False)
         if losses[1] < lowest_dev_loss:
             lowest_dev_loss = losses[1]
-            torch.save(model.state_dict(), './weights.pt')
+            torch.save(model.state_dict(), './bert-maml-weights.pt')
         print(losses, accs)
         # sum_avgs.append(accs[1])
 
