@@ -933,6 +933,7 @@ def main():
                 tr_loss = 0
                 nb_tr_examples, nb_tr_steps = 0, 0
                 for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
+                    num_tensorboard_steps += 1
                     batch = tuple(t.to(device) for t in batch)
                     input_ids, input_mask, segment_ids, label_ids = batch
 
