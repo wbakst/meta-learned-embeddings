@@ -67,7 +67,7 @@ for epoch in range(1, args.num_epochs+1):
 
         train_x, train_y, train_lens, test_x, test_y, test_lens = batch
 
-        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=False)
+        losses, accs = meta_learner.forward(train_x, train_y, train_lens, test_x, test_y, test_lens, evaluate=True)
         if losses[1] < lowest_dev_loss:
             lowest_dev_loss = losses[1]
             torch.save(model.state_dict(), './maml-weights.pt')
