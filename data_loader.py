@@ -99,8 +99,6 @@ class ReviewDataset(Dataset):
         train_ex = ex[:self.K]
         test_ex = ex[self.K:]
 
-        device = torch.device('gpu') if self.use_gpu else torch.device('cpu')
-
         train_data = torch.tensor(np.stack(train_ex[:,0]))
         train_labels = torch.tensor(np.stack(train_ex[:,1]))
         train_lens = torch.tensor(np.stack(train_ex[:,2]))
