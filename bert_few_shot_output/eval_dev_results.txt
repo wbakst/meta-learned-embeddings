@@ -1,0 +1,1512 @@
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 1.283546548445248
+global_step = 2
+loss = 0.5616185069084167
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 1.9906258072378566
+global_step = 3
+loss = 0.4960908492406209
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 1.9535797667541936
+global_step = 4
+loss = 0.4496835395693779
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.758822109996308
+global_step = 5
+loss = 0.38674629628658297
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 3.56178039057982
+global_step = 6
+loss = 0.3283991211404403
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 4.216110955473204
+global_step = 7
+loss = 0.2844018095305988
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 3.5556503765776295
+global_step = 8
+loss = 0.2497945437207818
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 4.048673815404375
+global_step = 9
+loss = 0.22260659617475337
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 4.40473293139325
+global_step = 10
+loss = 0.20056918933987616
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 4.763690525462271
+global_step = 11
+loss = 0.4086530757221309
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 1.6993219711278613
+global_step = 12
+loss = 0.5500014728556076
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.9120389136603162
+eval_loss = 0.31761327965056846
+global_step = 13
+loss = 0.5732889272845708
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.8533819360064804
+eval_loss = 0.5126303003625832
+global_step = 14
+loss = 0.7482476324907371
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.497112868843894
+global_step = 15
+loss = 0.7613795801997185
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 3.3262350497925692
+global_step = 16
+loss = 0.7173070763237774
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 2.5047760660522562
+global_step = 17
+loss = 0.6767516379408977
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 2.621359259191795
+global_step = 18
+loss = 0.6400222577568557
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 2.7218924067756123
+global_step = 19
+loss = 0.6071110654524282
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 3.456391398395811
+global_step = 20
+loss = 0.6910876755136997
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.957975636422634
+global_step = 21
+loss = 0.7556757703866988
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.6640997467296463
+global_step = 22
+loss = 0.8056460731154815
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.277478147830282
+global_step = 23
+loss = 0.7725254590825542
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.7427408712683246
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.7151768653467298
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.6898898815091413
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.6660972284842972
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.6444264891490873
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.6734638529155275
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.6977816846532127
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.7194159210269009
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.6988016584946308
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.6793848426561012
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.6610184534562423
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.6436955419235996
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.6274145224079903
+
+dev_set -> train_dir_counter: 1 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.6119361946963378
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 2
+loss = 0.6293700039386749
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 3
+loss = 0.521905779838562
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 4
+loss = 0.46747903525829315
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 5
+loss = 0.38601941615343094
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 6
+loss = 0.33157985222836334
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 7
+loss = 0.29302825406193733
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 8
+loss = 0.2638800605200231
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 9
+loss = 0.2414938331478172
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 10
+loss = 0.22287535183131696
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 11
+loss = 0.3143348324705254
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 12
+loss = 0.3908766368404031
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 13
+loss = 0.44911789521574974
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 14
+loss = 0.4212285109928676
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 15
+loss = 0.39705507829785347
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 16
+loss = 0.37526400457136333
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 17
+loss = 0.3564101996667245
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 18
+loss = 0.33959191168347996
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 19
+loss = 0.32451321263062327
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 20
+loss = 0.3799222856760025
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 21
+loss = 0.4257950981458028
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 22
+loss = 0.47333305261351843
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 23
+loss = 0.45539465886743175
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.4389185785936813
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.42428546205163004
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.41030086161425483
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.39720331228993555
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.385035151881831
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.4217820814971266
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.45712380707263944
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.49346142334322773
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.47974187158979475
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.46708524723847705
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.45535873731269555
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.4439042639519487
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.4331368850544095
+
+dev_set -> train_dir_counter: 2 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.4230736246382868
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 2
+loss = 0.6030184626579285
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 3
+loss = 0.5114282766977946
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 4
+loss = 0.46745479106903076
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 5
+loss = 0.385174336284399
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 6
+loss = 0.32999628596007824
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 7
+loss = 0.29050534112112864
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 8
+loss = 0.261687318328768
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 9
+loss = 0.23839372479253346
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 10
+loss = 0.22055827341973783
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 11
+loss = 0.3097570264203982
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 12
+loss = 0.37895115185528994
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 13
+loss = 0.44243528264073223
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 14
+loss = 0.41552632860839367
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 15
+loss = 0.3919186639289061
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 16
+loss = 0.3710365383885801
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 17
+loss = 0.35252253448261933
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 18
+loss = 0.33607446816232467
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 19
+loss = 0.32139833604818896
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 20
+loss = 0.3824752354994416
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 21
+loss = 0.436085794121027
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 22
+loss = 0.48214384862645104
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 23
+loss = 0.46384436199846474
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.44686609056467813
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.4312725333869457
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.41688474411001575
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.4034298714940195
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.39106212503143717
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.43258206751839867
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.465343202650547
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.4971312683436178
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.4833847179543227
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.4705193056301637
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.4586723996874164
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.44711503769670213
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.43657992345591384
+
+dev_set -> train_dir_counter: 3 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.4264769088980314
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 2
+loss = 0.18912242725491524
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 3
+loss = 0.2410846675435702
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 4
+loss = 0.27395264990627766
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 5
+loss = 0.2301921784877777
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 6
+loss = 0.20216204846898714
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 7
+loss = 0.18202040823442595
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 8
+loss = 0.1663631391711533
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 9
+loss = 0.15430809102124637
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 10
+loss = 0.14419050551950932
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 11
+loss = 0.24130342528223991
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 12
+loss = 0.3099911439542969
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 13
+loss = 0.3815116724715783
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 14
+loss = 0.35865471166159424
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 15
+loss = 0.3389679454267025
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 16
+loss = 0.3212073927279562
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 17
+loss = 0.30558551322011385
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 18
+loss = 0.2914171355466048
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 19
+loss = 0.2790482085394232
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 20
+loss = 0.3391688087955117
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 21
+loss = 0.3990278792168413
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 22
+loss = 0.44929345985027874
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 23
+loss = 0.432210734842912
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.416648486473908
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.4020796453952789
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.3886581464455678
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.3763410887784428
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.3650217249191233
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.4000641129397113
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.4352283141265313
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.4691713722723146
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.4566516411723569
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.4445499844397559
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.43337581777835593
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.422482090230499
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.4123056483351522
+
+dev_set -> train_dir_counter: 4 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.402766645458099
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 2
+loss = 0.18669717572629452
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 3
+loss = 0.2295182285209497
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 4
+loss = 0.25878852885216475
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 5
+loss = 0.21684889271855354
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 6
+loss = 0.19017337697247663
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 7
+loss = 0.17191085272601672
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 8
+loss = 0.15736823808401823
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 9
+loss = 0.1470624167058203
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 10
+loss = 0.1380761370062828
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 11
+loss = 0.22849778560074893
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 12
+loss = 0.3126949854195118
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 13
+loss = 0.37675141256589156
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 14
+loss = 0.35416621289082933
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 15
+loss = 0.33413886775573093
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 16
+loss = 0.31655659223906696
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 17
+loss = 0.30124666476074385
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 18
+loss = 0.28779891857670414
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 19
+loss = 0.27562833204865456
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 20
+loss = 0.33920594211667776
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 21
+loss = 0.39630041573019253
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 22
+loss = 0.44639366103166883
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 23
+loss = 0.42949221331788145
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.4139836841883759
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.3999100297689438
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.38661246560513973
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.37443635364373523
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.3629739015762295
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.4005858063183982
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.4380599963168303
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.4689771347949582
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.45607575960457325
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.4438551523242936
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.4325728325501961
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.4219563017998423
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.41195007796502775
+
+dev_set -> train_dir_counter: 5 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.4024998787287119
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 2
+loss = 0.17945698834955692
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 3
+loss = 0.23392271623015404
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 4
+loss = 0.2569002928212285
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 5
+loss = 0.216794216632843
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 6
+loss = 0.19035459930698076
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 7
+loss = 0.17111382793102944
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 8
+loss = 0.15751465829089284
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 9
+loss = 0.14689732218782106
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 10
+loss = 0.1377589602023363
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 11
+loss = 0.2275628193535588
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 12
+loss = 0.3005162493015329
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 13
+loss = 0.3748325857405479
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 14
+loss = 0.3521537581192596
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 15
+loss = 0.3324391630788644
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 16
+loss = 0.3154239694122225
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 17
+loss = 0.3003610642079045
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 18
+loss = 0.2869667936530378
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 19
+loss = 0.27487296826745333
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 20
+loss = 0.3329664649441838
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 21
+loss = 0.38807160531481105
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 22
+loss = 0.4357658572156321
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 23
+loss = 0.419355994819299
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.4045693869702518
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.39096026703715325
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.3782350773421618
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.3664778519283842
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.35570346577359097
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.39273627988737203
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.43021658770740034
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.4629575601748882
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.45029595377855003
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.43853011670889275
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.4273456867565127
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.416617564111948
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.40675068232748246
+
+dev_set -> train_dir_counter: 6 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.3973565584904439
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 2
+loss = 0.22109247371554375
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 3
+loss = 0.27034861594438553
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t2/
+acc = 0.09831278390655418
+eval_loss = 2.605661242175546
+global_step = 4
+loss = 0.2969397660344839
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 5
+loss = 0.24925508946180344
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 6
+loss = 0.21628593963881335
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t4/
+acc = 0.14433992864093415
+eval_loss = 2.4751870266273377
+global_step = 7
+loss = 0.19530293398669787
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 8
+loss = 0.1792264231480658
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 9
+loss = 0.16608669029341805
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/apparel/t5/
+acc = 0.3476005188067445
+eval_loss = 1.9011766766966547
+global_step = 10
+loss = 0.15442796871066095
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 11
+loss = 0.2465277686715126
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 12
+loss = 0.32282103039324284
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t2/
+acc = 0.08796108633968383
+eval_loss = 2.6348019363848785
+global_step = 13
+loss = 0.39088259236170697
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 14
+loss = 0.36752968387944357
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 15
+loss = 0.34674513215819996
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t4/
+acc = 0.14661806399351965
+eval_loss = 2.4687058153271915
+global_step = 16
+loss = 0.32847904367372394
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 17
+loss = 0.3122524930273785
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 18
+loss = 0.29779892332024044
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/camera_photo/t5/
+acc = 0.40137707573916565
+eval_loss = 1.748495279701977
+global_step = 19
+loss = 0.28525512567476224
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 20
+loss = 0.3450012752786279
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 21
+loss = 0.39808342091384386
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t2/
+acc = 0.14705882352941177
+eval_loss = 2.4669473884361133
+global_step = 22
+loss = 0.449206613173539
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 23
+loss = 0.43235420127925667
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 24
+loss = 0.4166851940875252
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t4/
+acc = 0.23154121863799282
+eval_loss = 2.2294872877321072
+global_step = 25
+loss = 0.4022683833539486
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 26
+loss = 0.38895770205328095
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 27
+loss = 0.3767595408415353
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/magazines/t5/
+acc = 0.4180386542591267
+eval_loss = 1.7020479393856867
+global_step = 28
+loss = 0.36520291798348936
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 29
+loss = 0.40317047605740614
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 30
+loss = 0.43918066956102847
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t2/
+acc = 0.07746478873239436
+eval_loss = 2.675206708908081
+global_step = 31
+loss = 0.4685911030298279
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 32
+loss = 0.45570461091119796
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 33
+loss = 0.4437165917320685
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t4/
+acc = 0.14788732394366197
+eval_loss = 2.4855666359265647
+global_step = 34
+loss = 0.43260302372715054
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 35
+loss = 0.4217905467110021
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 36
+loss = 0.4116925505093402
+
+dev_set -> train_dir_counter: 7 dir: ./bert_preprocessed_data/office_products/t5/
+acc = 0.3333333333333333
+eval_loss = 1.9771929477651915
+global_step = 37
+loss = 0.4021636644327963
+

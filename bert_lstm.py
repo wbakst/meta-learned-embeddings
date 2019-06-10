@@ -83,17 +83,17 @@ class BiLSTM(nn.Module):
 
         self.classifier = nn.Linear(self.hidden_size*2, self.label_size)
 
-	if self.use_gpu:
-	    self.embeddings = self.embeddings.cuda()
-	    self.lstm = self.lstm.cuda()
-	    self.classifier = self.classifier.cuda()
+        if self.use_gpu:
+            self.embeddings = self.embeddings.cuda()
+            self.lstm = self.lstm.cuda()
+            self.classifier = self.classifier.cuda()
 
     def init_hidden(self, use_gpu):
         h_0 = Variable(torch.zeros(2, self.batch_size, self.hidden_size), requires_grad=True)
         c_0 = Variable(torch.zeros(2, self.batch_size, self.hidden_size), requires_grad=True)
-	if use_gpu:
-	    return h_0.cuda(), c_0.cuda()
-	else:
+        if use_gpu:
+            return h_0.cuda(), c_0.cuda()
+        else:
             return h_0, c_0
 
     def forward(self, word_ids, lengths):
@@ -120,8 +120,8 @@ class BiLSTM(nn.Module):
 
         # get final output state
         last_indices = (lengths - 1).view(-1, 1).expand(len(lengths), output.size(2)).unsqueeze(1) # 1 = time dimension
-	if self.use_gpu:
-	    last_indices = last_indices.cuda()
+        if self.use_gpu:
+            last_indices = last_indices.cuda()
         last_output = output.gather(1, last_indices).squeeze(1)
         # print(last_output.size())
         logits = self.classifier(last_output)

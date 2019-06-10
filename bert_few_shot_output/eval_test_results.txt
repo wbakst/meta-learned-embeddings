@@ -1,0 +1,1512 @@
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.6119361946963378
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4230736246382868
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4264769088980314
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.402766645458099
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4024998787287119
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.3973565584904439
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t2/
+acc = 0.07272727272727272
+eval_loss = 2.6777875741322834
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t4/
+acc = 0.12174439733494852
+eval_loss = 2.5410036566745804
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/books/t5/
+acc = 0.3779527559055118
+eval_loss = 1.8206448957144497
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t2/
+acc = 0.07883817427385892
+eval_loss = 2.659649593590279
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t4/
+acc = 0.14514218009478674
+eval_loss = 2.471759955558551
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/dvd/t5/
+acc = 0.39454976303317535
+eval_loss = 1.7672367984726585
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t2/
+acc = 0.16221498371335505
+eval_loss = 2.424085139841228
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t4/
+acc = 0.22866449511400652
+eval_loss = 2.2358848646815335
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/electronics/t5/
+acc = 0.44169381107491856
+eval_loss = 1.6357984192814532
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t2/
+acc = 0.12697220135236664
+eval_loss = 2.5250796399899382
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t4/
+acc = 0.19534184823441023
+eval_loss = 2.3334084775076427
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4021636644327963
+
+test_set ->  dir: ./bert_preprocessed_data/kitchen_housewares/t5/
+acc = 0.38634658664666166
+eval_loss = 1.7859902828375795
+global_step = 37
+loss = 0.4021636644327963
+
